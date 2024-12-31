@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(to bottom right, #ffe6f2, #ffc1d6);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #ff6f8f; /* Marginda color */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+li {
+  margin: 0;
+  padding: 15px;
+  cursor: pointer;
+  background-color: #ffe6e9;
+  border-radius: 12px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-weight: bold;
+  color: #5a5a5a;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+li:hover {
+  background-color: #ffb3c2;
+  transform: scale(1.05);
+}
+
+.selected {
+  background-color: #ff6f8f;
+  color: white;
+  box-shadow: 0 6px 12px rgba(255, 111, 143, 0.5);
+}
+
+.button {
+  background-color: #ff6f8f;
+  border-radius: 25px;
+  width: 200px;
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 12px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+  background-color: #e05373;
+  transform: translateY(-2px);
+}
+
+.button-disable {
+  border-radius: 25px;
+  width: 200px;
+  cursor: not-allowed;
+  background-color: #cccccc;
+  margin-top: 20px;
+  padding: 12px;
+  color: #808080;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+}
+
+.logout-button {
+  margin-top: 30px;
+  background-color: #ff6f8f;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  padding: 12px 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  align-self: center;
+}
+
+.logout-button:hover {
+  background-color: #e05373;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .button,
+  .button-disable,
+  .logout-button {
+    width: 80%;
+  }
+
+  li {
+    width: 80%;
+  }
+}
