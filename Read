@@ -1,0 +1,79 @@
+Quiz App with Firebase Authentication
+
+Overview
+
+This is a React-based Quiz application with Firebase integration for user authentication. The app provides a seamless user experience with login, signup, and Google authentication options. Once logged in, users can attempt quizzes, and their session is managed securely through Firebase Authentication.
+
+Features
+
+Core Features
+
+User Authentication: Login, Signup, and Google Sign-In options.
+
+Quiz Functionality: Multiple-choice quizzes with instant feedback.
+
+Logout Functionality: Secure sign-out option for users.
+
+UI Features
+
+Responsive design with inline CSS for custom styling.
+
+Attractive gradient background.
+
+Styled buttons with hover effects.
+
+Technologies Used
+
+Frontend
+
+React: Library for building user interfaces.
+
+Inline CSS: Custom styles for components.
+
+Backend/Services
+
+Firebase Authentication: For managing user authentication.
+
+Installation and Setup
+git clone https://github.com/your-username/quiz-app.git
+cd quiz-app
+
+Install dependencies
+npm install
+
+Configure Firebase:
+
+Create a Firebase project at Firebase Console.
+
+Enable Email/Password and Google Authentication in the Authentication section.
+
+Replace the Firebase configuration in firebase/firebase.js with your project’s configuration.
+
+Start the development server:npm install
+
+Configure Firebase:
+
+Create a Firebase project at Firebase Console.
+
+Enable Email/Password and Google Authentication in the Authentication section.
+
+Replace the Firebase configuration in firebase/firebase.js with your project’s configuration.
+
+Start the development server:
+Open the app in your browser at http://localhost:3000.
+
+Usage Instructions
+Authentication
+Users can log in using their email and password or Google account.
+For new users, the signup option is available.
+Quiz
+After logging in, users are redirected to the quiz interface.
+The quiz contains multiple-choice questions with hover effects.
+Logout
+Users can log out securely using the logout button, which is styled and centrally placed.
+Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request for any changes or improvements.
+
+LIVE DEMO:
+https://drive.google.com/file/d/1Wj4ZaSEXIyoOS_oDyA8u79HcLlmFozI1/view?usp=sharing
